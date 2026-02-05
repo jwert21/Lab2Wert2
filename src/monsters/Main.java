@@ -8,5 +8,8 @@ public class Main {
 
         System.out.println("Pokemon 1 " + p1.getName());
         System.out.println("Pokemon 2 " + p2.getName());
+
+        p1.specialPowers();
+        p2.specialPowers();
     }
 }
