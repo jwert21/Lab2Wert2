@@ -1,6 +1,8 @@
 package monsters;
 
 public class Water extends Monster {
-    super(name);
+
+        public Fire(String name, Eyes eyes) {
+            super(name);
     }
 }

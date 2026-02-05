@@ -2,8 +2,9 @@ package monsters;
 
 public abstract class Monster {
 
-    public Monster(String name) {
+    public Monster(String name, Eyes eyes) {
         this.name = name;
+        this.eyes = eyes;
     }
 
     public String getName() {
@@ -15,4 +16,14 @@ public abstract class Monster {
     }
 
     private String name;
+
+    public Eyes getEyes() {
+        return eyes;
+    }
+
+    public void setEyes(Eyes eyes) {
+        this.eyes = eyes;
+    }
+
+    private Eyes eyes;
 }
