@@ -6,8 +6,8 @@ public class Fire extends Monster{
             super(name, eyes);
     }
 
-        @Override
-        public void specialPowers(){
-            System.out.println("sprays fire")
-        }
+    @Override
+    public void specialPowers(){
+        System.out.println("sprays fires");
+    }
 }

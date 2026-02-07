@@ -26,4 +26,7 @@ public abstract class Monster {
     }
 
     private Eyes eyes;
+
+    public abstract void specialPowers();
+
 }
