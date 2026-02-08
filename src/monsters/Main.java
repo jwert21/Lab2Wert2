@@ -3,7 +3,7 @@ package monsters;
 public class Main {
 
     public static void main(String[] args){
-        Monster p1 = new Water("Polly", Eyes.TWO, Color.BLUE, WaterType.SALTWATER);
+        Monster p1 = new Water("Polly", Eyes.TWO, Color.BLUE, Type.SALTWATER);
         Monster p2 = new Fire("Charizard", Eyes.ONE, Color.ORANGE, Temperature.HOT);
         Monster p3 = new Slime("Pikachu", Eyes.THREE, Color.GREEN, Texture.FLOAM);
         Monster p4 = new Sand("Pichu", Eyes.ONE, Color.BEIGE, SandMaterial.SILICA);
