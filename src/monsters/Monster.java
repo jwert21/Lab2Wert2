@@ -2,12 +2,12 @@ package monsters;
 
 public abstract class Monster {
 
-    public Monster(String name, Eyes eyes, Color color, Temperature temperature, WaterType watertype, SandMaterial sandmaterial, Texture texture) {
+    public Monster(String name, Eyes eyes, Color color, Temperature temperature, Type type, SandMaterial sandmaterial, Texture texture) {
         this.name = name;
         this.eyes = eyes;
         this.color = color;
         this.temperature = temperature;
-        this.watertype = watertype;
+        this.type = type;
         this.sandmaterial = sandmaterial;
         this.texture = texture;
     }
@@ -46,11 +46,11 @@ public abstract class Monster {
 
     private Temperature temperature;
 
-    public WaterType getWaterType() { return watertype; }
+    public Type getType() { return type; }
 
-    public void setWaterType(WaterType watertype) { this.watertype = watertype; }
+    public void setType(Type type) { this.type = type; }
 
-    private WaterType watertype;
+    private Type type;
 
     public SandMaterial getSandMaterial() { return sandmaterial; }
 
