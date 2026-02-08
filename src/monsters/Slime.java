@@ -9,5 +9,6 @@ public class Slime extends Monster{
     @Override
     public void specialPowers(){
         System.out.println("sprays slime");
+        System.out.println("turns into pile of slime");
     }
 }
