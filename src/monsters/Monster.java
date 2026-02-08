@@ -2,7 +2,7 @@ package monsters;
 
 public abstract class Monster {
 
-    public Monster(String name, Eyes eyes, Color color, Temperature temperature, WaterType watertype, SandMaterial sandmaterial, Texture texture, InkType inktype) {
+    public Monster(String name, Eyes eyes, Color color, Temperature temperature, WaterType watertype, SandMaterial sandmaterial, Texture texture, InkType inktype, Brightness brightness) {
         this.name = name;
         this.eyes = eyes;
         this.color = color;
@@ -68,6 +68,14 @@ public abstract class Monster {
     public InkType getInkType() { return inktype; }
 
     public void setInkType()(InkType inktype) { this.inktype = inktype; }
+
+    private InkType inktype;
+
+    public Brightness getBrightness() { return brightness; }
+
+    public void setBrightness()(Brightness brightness) { this.brightness = brightness; }
+
+    private Brightness brightness;
 
     public abstract void specialPowers();
 
