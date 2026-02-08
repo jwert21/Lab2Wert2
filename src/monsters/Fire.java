@@ -10,5 +10,6 @@ public class Fire extends Monster{
     public void specialPowers(){
         System.out.println("sprays fire");
         System.out.println("turns into pile of fire");
+        System.out.println("surrounds himself with fire");
     }
 }
