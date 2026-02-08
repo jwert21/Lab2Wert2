@@ -9,6 +9,7 @@ public class Sand extends Monster{
     @Override
     public void specialPowers(){
         System.out.println("sprays sand");
-        System.out.println("turns into pile of sand")
+        System.out.println("turns into pile of sand");
+        System.out.println("surrounds himself with sand");
     }
 }
