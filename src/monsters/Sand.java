@@ -2,8 +2,8 @@ package monsters;
 
 public class Sand extends Monster{
 
-    public Sand(String name, Eyes eyes) {
-        super(name, eyes);
+    public Sand(String name, Eyes eyes, Color color, SandType sandtype) {
+        super(name, eyes, color, sandtype);
     }
 
     @Override

@@ -2,8 +2,8 @@ package monsters;
 
 public class Slime extends Monster{
 
-    public Slime(String name, Eyes eyes) {
-        super(name, eyes);
+    public Slime(String name, Eyes eyes, Color color, Texture texture) {
+        super(name, eyes, color, texture);
     }
 
     @Override
