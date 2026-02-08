@@ -2,9 +2,10 @@ package monsters;
 
 public abstract class Monster {
 
-    public Monster(String name, Eyes eyes) {
+    public Monster(String name, Eyes eyes, Color color) {
         this.name = name;
         this.eyes = eyes;
+        this.color = color;
     }
 
     public String getName() {
@@ -26,6 +27,10 @@ public abstract class Monster {
     }
 
     private Eyes eyes;
+
+    public Color setColor(Color color) {
+        this.color = color;
+    }
 
     public abstract void specialPowers();
 
