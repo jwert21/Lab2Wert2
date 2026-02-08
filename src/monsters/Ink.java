@@ -10,5 +10,6 @@ public class Ink extends Monster{
     public void specialPowers(){
         System.out.println("sprays ink");
         System.out.println("turns into pile of ink");
+        System.out.println("surrounds himself with ink");
     }
 }
