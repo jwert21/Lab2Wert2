@@ -10,5 +10,6 @@ public class Slime extends Monster{
     public void specialPowers(){
         System.out.println("sprays slime");
         System.out.println("turns into pile of slime");
+        System.out.println("surrounds himself with slime");
     }
 }

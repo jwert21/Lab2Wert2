@@ -10,6 +10,7 @@ public class Water extends Monster {
     @Override
     public void specialPowers() {
         System.out.println("sprays water");
-        System.out.println("turns into pile of water")
+        System.out.println("turns into pile of water");
+        System.out.println("surrounds himself with water");
     }
 }
