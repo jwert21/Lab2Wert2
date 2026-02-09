@@ -2,8 +2,8 @@ package monsters;
 
 public class Fire extends Monster{
 
-    public Fire(String name, Eyes eyes, Color color, Temperature temperature, Brightness brightness) {
-            super(name, eyes, color, temperature, brightness);
+    public Fire(String name, Eyes eyes, Color color, Temperature temperature, Brightness brightness, Intensity intensity, Shape shape) {
+            super(name, eyes, color, temperature, null, null, null, null, brightness, intensity, null, StateOfMatter.GAS, null, null,null, null, null, null, shape);
     }
 
     @Override

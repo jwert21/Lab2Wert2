@@ -1,5 +1,5 @@
 package monsters;
 
 public enum Brightness {
-    DARK
+    DARK, BRIGHT
 }

@@ -1,5 +1,5 @@
 package monsters;
 
-public enum Type {
+public enum WaterType {
     SALTWATER
 }

@@ -1,5 +1,5 @@
 package monsters;
 
 public enum Temperature {
-    HOT
+    HOT, COLD
 }

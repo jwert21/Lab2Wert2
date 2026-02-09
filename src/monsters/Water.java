@@ -3,8 +3,8 @@ package monsters;
 public class Water extends Monster {
 
 
-    public Water(String name, Eyes eyes, Color color, WaterType watertype) {
-        super(name, eyes, color, watertype);
+    public Water(String name, Eyes eyes, Color color, WaterType waterType, PH ph, StateOfMatter state, Shape shape) {
+        super(name, eyes, color, Temperature.COLD, waterType, null, null, null, Brightness.DARK, Intensity.WEAK, ph, state, null, null, null, null, null, null, shape);
     }
 
     @Override

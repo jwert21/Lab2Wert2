@@ -1,5 +1,5 @@
 package monsters;
 
-public enum SandMaterial {
+public enum Material {
     SILICA
 }

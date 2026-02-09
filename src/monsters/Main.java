@@ -3,11 +3,11 @@ package monsters;
 public class Main {
 
     public static void main(String[] args){
-        Monster p1 = new Water("Polly", Eyes.TWO, Color.BLUE, WaterType.SALTWATER);
-        Monster p2 = new Fire("Charizard", Eyes.ONE, Color.ORANGE, Temperature.HOT, Brightness.DARK);
-        Monster p3 = new Slime("Pikachu", Eyes.THREE, Color.GREEN, Texture.FLOAM);
-        Monster p4 = new Sand("Pichu", Eyes.ONE, Color.BEIGE, SandMaterial.SILICA);
-        Monster p5 = new Ink("Squirtle", Eyes.TWO, Color.BLACK);
+        Monster p1 = new Water("Polly", Eyes.TWO, Color.BLUE, WaterType.SALTWATER, PH.HIGH, StateOfMatter.LIQUID, Shape.ROUND);
+        Monster p2 = new Fire("Charizard", Eyes.ONE, Color.ORANGE, Temperature.HOT, Brightness.DARK, Intensity.STRONG, Shape.FLAME);
+        Monster p3 = new Slime("Pikachu", Eyes.THREE, Color.GREEN, Texture.FLOAM, Viscoelasticity.ELASTIC, Bounciness.HIGH, Shape.SQUARE);
+        Monster p4 = new Sand("Pichu", Eyes.ONE, Color.BEIGE, Material.SILICA, Density.HIGH, Permeability.HIGH, Shape.TRIANGLE);
+        Monster p5 = new Ink("Squirtle", Eyes.TWO, Color.BLACK, InkType.PIGMENT, Viscosity.HIGH, ColorStrength.STRONG, Shape.SQUARE);
 
         System.out.println("Pokemon 1 " + p1.getName());
         System.out.println("Pokemon 2 " + p2.getName());

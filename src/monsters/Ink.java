@@ -2,8 +2,8 @@ package monsters;
 
 public class Ink extends Monster{
 
-    public Ink(String name, Eyes eyes, Color color, InkType inktype) {
-        super(name, eyes, color, inktype);
+    public Ink(String name, Eyes eyes, Color color, InkType inkType, Viscosity viscosity, ColorStrength colorstrength, Shape shape) {
+        super(name, eyes, color, Temperature.COLD, null, null, null, inkType, Brightness.DARK, Intensity.WEAK, null, StateOfMatter.LIQUID, null, null, null, null, viscosity, colorstrength, shape);
     }
 
     @Override
